@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgb(166, 194, 231);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    color: #333;
+    font-weight: bold;
+}
+
+.github-title {
+    text-decoration: none;
+    color: #333;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 566px) {
+    .footer-content p {
+        font-size: 10px;
+    }
+}
