@@ -31,7 +31,9 @@ const App = () => {
   return (
     <div className="App">
       <div className="wrapper">
-        <h1 className='title'>THE MOVIE</h1>
+        <a href="/" className='title'>
+          <h1>THE MOVIE</h1>
+        </a>
         <input type="search" placeholder='Cari Film...'
           className='search-movie'
           onChange={({ target }) => search(target.value)}

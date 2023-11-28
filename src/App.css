@@ -11,6 +11,7 @@
 .title {
   color: rgb(166, 194, 231);
   margin-top: 20px;
+  text-decoration: none;
 }
 
 .search-movie {
