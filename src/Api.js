@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseUrl = 'https://api.themoviedb.org/3'
-const apiKey = 'xxxxx'
+const apiKey = 'e061410252c57ca301fb9207be16e51b'
 
 //async buat biar gampang untuk menyesuaikan
 export const getMovieList = async () => {
